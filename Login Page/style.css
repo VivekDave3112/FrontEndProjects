@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(241, 234, 234);
+}
+.logo{
+    display: block;
+    background-color: blueviolet;
+    width : 100px;
+    height: 100px;
+    margin-left : 50%;
+}
+.logoImage{
+    width : 100px;
+    height: 100px;
+}
+.main-card{
+    background-color: white;
+    height : auto;
+    width : 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+}
+.head-text{
+    font-family: 'Varela Round', sans-serif;
+    margin : 7px;
+}
+.card-text{
+    font-size: 1.2em;
+    margin: 7px;
+}
+.center {
+    text-align: center;
+}
+.name{
+    display: inline-block;
+}
+#fname,#lname{
+    width : 180px;
+}
+#fname{
+    margin-left: 10px;
+}
+#lname{
+    margin-right: 10px;
+    margin-left : 5px;
+}
+.last-name{
+    position: absolute;
+    right : 0px;
+}
+.input-text{
+    border: 1.7px solid black;
+    border-radius : 4px;
+    height: 30px;
+}
+.email,.password{
+    margin-top : 8px;
+    margin-left: 10px;
+}
+#email,#password{
+    width : 374.2px;
+    margin-right: 10px;
+}
+.dob{
+    margin-top: 12px;
+}
+#dob-label{
+    margin-left: 10px;
+    display: block;
+}
+.dropdown{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    width : 120px;
+}
+.dropdowns{
+    margin-top: 5px;
+}
+#date{
+    margin-left: 10px;
+}
+#month{
+    margin-left: 5.8px;
+}
+#year{
+    position: absolute;
+    right : 10px;
+}
